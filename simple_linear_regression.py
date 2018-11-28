@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 # Datasetin import edilmesi
-dataset = pd.read_csv('Salary_Data.csv')
+dataset = pd.read_csv('simple_linear_salary_data.csv')
 X = dataset.iloc[:, :-1].values
 y = dataset.iloc[:, 1].values
 
